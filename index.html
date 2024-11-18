@@ -79,12 +79,17 @@
       </section>
       <section class="section" id="chefs-section">
         <div class="container">
-          <h2 class="chefs-title section-title">
+          <h2 class="chefs-title section-title centered">
             Наші найкращі <span class="accent">шеф -кухарі</span>
           </h2>
           <ul>
             <li>
               <article>
+                <img
+                  class="chef-photo"
+                  src="./images/nastya-chef.jpg"
+                  alt="Найкращий шеф-кухар Настя"
+                />
                 <h3>Настя</h3>
                 <p>Привіт, я Настя!</p>
                 <p>Вже 10 років, я свтілюю у життя цікаві та смачні ідеї.</p>
@@ -93,6 +98,11 @@
             </li>
             <li>
               <article>
+                <img
+                  class="chef-photo"
+                  src="./images/vlad-chef.jpg"
+                  alt="Найкращий шеф-кухар Влад"
+                />
                 <h3>Влад</h3>
                 <p>Привіт, я Влад!</p>
                 <p>
@@ -107,7 +117,12 @@
       </section>
       <section class="section" id="formats-section">
         <div class="container">
-          <h2 class="formats-title section-title">Формати</h2>
+          <h2 class="formats-title section-title centered">Формати</h2>
+          <button class="slider" type="button">
+            <svg class="slider-arrow" width="16" height="16">
+              <use href="./images/iconics.svg#icon-arrow"></use>
+            </svg>
+          </button>
           <ul class="formats-list">
             <li class="formats-item">
               <article class="format-card">
@@ -146,6 +161,11 @@
               </article>
             </li>
           </ul>
+          <button class="slider" type="button">
+            <svg class="slider-arrow" width="16" height="16">
+              <use href="./images/iconics.svg#icon-arrow"></use>
+            </svg>
+          </button>
         </div>
       </section>
       <section class="section" id="contacts-sections">
@@ -164,8 +184,11 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="container">
+        <a href="#"
+          ><img src="./images/logo.svg" alt="Логотип сучасної пекарні"
+        /></a>
         <nav>
           <a href="#"></a>
           <ul>
@@ -176,9 +199,6 @@
           </ul>
         </nav>
         <address>
-          <a href="#"
-            ><img src="./images/logo.svg" alt="Логотип сучасної пекарні"
-          /></a>
           <ul>
             <li>
               <a href="tel:+380960000007">+ 38 (096) 000 00 07</a>
@@ -191,8 +211,20 @@
                 Україна, м. Київ, вул. Січових Стрільців 54
               </a>
             </li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
+            <li>
+              <a href="#">
+                <svg class="address-icon" width="32" height="32">
+                  <use href="./images/iconics.svg#icon-fb-logo"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg class="address-icon" width="32" height="32">
+                  <use href="./images/iconics.svg#icon-ig-logo"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
           <a href="#" target="_blank">Політика конфіденційності</a>
           <p>&copy; 2022 Дані захищені</p>
