@@ -1,0 +1,75 @@
+// Fonts
+
+@import "./utils/fonts";
+
+// Variables
+
+@import "./utils/variables";
+
+// Text Decoration
+
+@import './utils/texts';
+
+// Base 
+
+@import "./base";
+
+// Section
+
+@import './layouts/section';
+
+// Button 
+
+@import './components/buttons';
+
+/* Link */
+
+@import './components/links';
+
+/* Utils */
+
+@import './utils/utils';
+
+/* Header */
+
+@import './components/header';
+
+/* Hero */
+
+@import './layouts/hero';
+
+/* Advantages */
+
+@import './layouts/advantages';
+
+/* Traditions */
+
+@import './layouts/traditions';
+
+/* Chefs */
+
+@import './layouts/chefs';
+
+/* Formats */
+
+@import './layouts/formats';
+
+/* Contacts */
+
+@import './layouts/contacts';
+
+/* Footer */
+
+@import './components/footer';
+
+// Chef Card 
+
+@import './components/chef-card';
+
+// Carousel button
+
+@import './components/carousel-button';
+
+//Format Card 
+ 
+@import './components/format-card'
